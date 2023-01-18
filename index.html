@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hubble Landing Page</title>
     <style>
-       @import url('https://fonts.googleapis.com/css2?family=Poppins');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
-.body {
-        display: grid;
-        background:url(background/bg-desktop.svg) no-repeat center center/cover;
-        height:520px;
-        width: 1300px;
-         background-color:black;
-        border: 2px solid black;
-         padding-left: 100px;
-        padding-top: 100px;
-        padding-right: 100px;
-        padding-bottom: 100px;
-        margin:0px 0px 0px 0px;
-        color: aliceblue;
+body{
+    background:url(background/bg-desktop.svg) no-repeat center center/cover;
+    background-color:#4e1c4e;
 }
 .item {
-    margin-top: -300px;
+    height: 30%;
+    width: 45%;
+    margin:-250px 0px 100px 50px;
+
 }
-.t {
+ .t {
     font-family: 'Poppins', sans-serif;
-    margin-top: -50px;
+    margin: 20px;
 
 }
 .text {
-    margin-left: 800px;
-    
+    margin-left: 900px;
+    color: white;
+       
 }
 .t1 {
     font-family: 'Poppins', sans-serif;
@@ -59,79 +54,69 @@
     background-color: rgb(187, 122, 36);
 }
 .icon1 {
-    margin:-10px 800px 0px 1100px;
+    margin:-100px 800px 0px 1100px;
     height: 35px;
     width: 35px;
-    background-color: white;
 }
 .icon2 {
     margin:-35px 800px 0px 1150px;
     height: 35px;
     width: 35px;
-    background-color: white;
 }
 .icon3 {
     margin:-35px 800px 0px 1200px;
     height: 35px;
     width: 35px;
-    background-color: white;
 }
-@media (min-width: 250px)and (max-width:1200px){
-    .body {
-      height:100%;
-      width: 100%;  
-    }
+ @media (min-width: 200px)and (max-width:1000px){
     .t {
-        margin:0px 0px 0px auto;
+        margin:50px 0px 0px 50px;
     }
     .text {
         height: 200px;
-      width: 300px; 
-        margin:1px 100px 100px auto;
+        width: 300px; 
+        margin:1px 100px 100px 50px;
     }
     .item {
         height: 200px;
         width: 300px; 
-        margin:100px 100px 100px auto;
+        margin:100px 100px 100px 50px;
     }
     .icons {
        height: 200px;
         width: 300px; 
-        margin:300px 10px 10px -900px; 
+        margin:300px 10px 10px -970px; 
     }
-} 
+}
+
     </style>
 </head>
+
 <body>
-        <div class="body">
-            <header>
-                <div class="t">
-                    <img src="background/logo.svg" alt="" srcset="">
-                   </div> 
-            </header>
+    <header>
+        <img class="t" src="background/logo.svg" alt="" srcset="">
+    </header>
 
-           <section>
-            <div class="text">
-                <h1 class="t1">Build The Community <br> Your Fans Will Love</h1>
-                <h3 class="t2">Huddle re-imagines the way we build communities. You have <br> a voice, but so does your audience. 
-                    Create connections with <br> your users as you engage in genuine discussion. </h3>
-                    <h3 class="t3">Register</h3>
-            </div>
-           </section>
+    <section>
+        <div class="text">
+            <h1 class="t1">Build The Community <br> Your Fans Will Love</h1>
+            <h3 class="t2">Huddle re-imagines the way we build communities. You have <br> a voice, but so does your
+                audience.
+                Create connections with <br> your users as you engage in genuine discussion. </h3>
+            <h3 class="t3">Register</h3>
+        </div>
+    </section>
 
-           <aside>
-            <div>
-                <img class="item" src="background/illustration-mockups.svg" alt="" srcset="">
-            </div>
-           </aside>
+    <aside>
+        <img class="item" src="background/illustration-mockups.svg" alt="" srcset="">
+    </aside>
 
-           <footer>
-            <div class="icons">
+
+    <div class="icons">
                 <div class="icon1"><img src="background/logo-facebook.svg"></div>
                 <div class="icon2"><img src="background/logo-twitter.svg"></div>
                 <div class="icon3"><img src="background/logo-instagram.svg"></div>
-            </div>
-           </footer>
-        </div>
+            </div> -->
 </body>
+
 </html>
